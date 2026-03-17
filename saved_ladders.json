@@ -1,0 +1,14 @@
+{
+  "New York": "55 or below | 56-57 | 58-59 | 60-61 | 62-63 | 64 or above",
+  "Miami": "72 or below | 73-74 | 75-76 | 77-78 | 79-80 | 81 or above",
+  "Dallas": "62 or below | 63-64 | 65-66 | 67-68 | 69-70 | 71 or above",
+  "Austin": "87 or below | 88-89 | 90-91 | 92-93 | 94-95 | 96 or above",
+  "Houston": "82 or below | 83-84 | 85-86 | 87-88 | 89-90 | 91 or above",
+  "Phoenix": "87 or below | 88-89 | 90-91 | 92-93 | 94-95 | 96 or above",
+  "Los Angeles": "82 or below | 83-84 | 85-86 | 87-88 | 89-90 | 91 or above",
+  "Philadelphia": "45 or below | 46-47 | 48-49 | 50-51 | 52-53 | 54 or above",
+  "Washington DC": "41 or below | 42-43 | 44-45 | 46-47 | 48-49 | 50 or above",
+  "Boston": "59 or below | 60-61 | 62-63 | 64-65 | 66-67 | 68 or above",
+  "Atlanta": "44 or below | 45-46 | 47-48 | 49-50 | 51-52 | 53 or above",
+  "Las Vegas": "87 or below | 88-89 | 90-91 | 92-93 | 94-95 | 96 or above"
+}
