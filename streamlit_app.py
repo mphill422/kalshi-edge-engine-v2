@@ -1,5 +1,5 @@
-# Kalshi High Temperature Model - V4.5
-# New in V4.5:
+# Kalshi High Temperature Model - V4.6
+# New in V4.6:
 # - Auto-fetches NWS observed high so far today from obhistory table
 # - Uses observed high as hard floor in consensus (can never go below what already happened)
 # - Reads both the Temp column AND the 6-hour Max column (catches overnight spikes)
@@ -17,8 +17,8 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 from datetime import datetime
 
-st.set_page_config(page_title="Kalshi High Temp V4.5", layout="wide")
-st.title("Kalshi High Temperature Model - V4.5")
+st.set_page_config(page_title="Kalshi High Temp V4.6", layout="wide")
+st.title("Kalshi High Temperature Model - V4.6")
 
 SAVE_FILE = Path("saved_ladders.json")
 HISTORY_FILE = Path("settlement_history.json")
@@ -29,12 +29,12 @@ HEADERS = {
 }
 
 SERIES = {
-    "Phoenix": "KXHIGHPHX", "Las Vegas": "KXHIGHLAS", "Los Angeles": "KXHIGHLAX",
-    "Dallas": "KXHIGHDAL", "Austin": "KXHIGHAUS", "Houston": "KXHIGHHOU",
-    "Atlanta": "KXHIGHATL", "Miami": "KXHIGHMIA", "New York": "KXHIGHNY",
-    "San Antonio": "KXHIGHSAT", "New Orleans": "KXHIGHMSY", "Philadelphia": "KXHIGHPHL",
-    "Boston": "KXHIGHBOS", "Denver": "KXHIGHDEN", "Oklahoma City": "KXHIGHOKC",
-    "Minneapolis": "KXHIGHMSP", "Washington DC": "KXHIGHDCA",
+    "Phoenix": "KXHIGHTPHX", "Las Vegas": "KXHIGHTLAS", "Los Angeles": "KXHIGHTLAX",
+    "Dallas": "KXHIGHTDAL", "Austin": "KXHIGHTAUS", "Houston": "KXHIGHTHOU",
+    "Atlanta": "KXHIGHTATL", "Miami": "KXHIGHTMIA", "New York": "KXHIGHTNY",
+    "San Antonio": "KXHIGHTSAT", "New Orleans": "KXHIGHTMSY", "Philadelphia": "KXHIGHTPHL",
+    "Boston": "KXHIGHTBOS", "Denver": "KXHIGHTDEN", "Oklahoma City": "KXHIGHTOKC",
+    "Minneapolis": "KXHIGHTMSP", "Washington DC": "KXHIGHTDCA",
 }
 
 STATIONS = {
