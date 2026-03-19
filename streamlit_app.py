@@ -29,12 +29,12 @@ HEADERS = {
 }
 
 SERIES = {
-    "Phoenix": "KXHIGHTPHX", "Las Vegas": "KXHIGHTLAS", "Los Angeles": "KXHIGHTLAX",
+    "Phoenix": "KXHIGHTPHX", "Las Vegas": "KXHIGHLAS", "Los Angeles": "KXHIGHLAX",
     "Dallas": "KXHIGHTDAL", "Austin": "KXHIGHAUS", "Houston": "KXHIGHTHOU",
-    "Atlanta": "KXHIGHTATL", "Miami": "KXHIGHTMIA", "New York": "KXHIGHNY",
-    "San Antonio": "KXHIGHTSAT", "New Orleans": "KXHIGHTMSY", "Philadelphia": "KXHIGHTPHL",
-    "Boston": "KXHIGHTBOS", "Denver": "KXHIGHTDEN", "Oklahoma City": "KXHIGHTOKC",
-    "Minneapolis": "KXHIGHTMSP", "Washington DC": "KXHIGHTDCA",
+    "Atlanta": "KXHIGHTATL", "Miami": "KXHIGHMIA", "New York": "KXHIGHNY",
+    "San Antonio": "KXHIGHSAT", "New Orleans": "KXHIGHMSY", "Philadelphia": "KXHIGHPHL",
+    "Boston": "KXHIGHTBOS", "Denver": "KXHIGHDEN", "Oklahoma City": "KXHIGHTOKC",
+    "Minneapolis": "KXHIGHMSP", "Washington DC": "KXHIGHDCA",
 }
 
 STATIONS = {
