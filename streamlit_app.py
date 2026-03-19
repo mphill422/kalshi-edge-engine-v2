@@ -30,8 +30,8 @@ HEADERS = {
 
 SERIES = {
     "Phoenix": "KXHIGHTPHX", "Las Vegas": "KXHIGHTLAS", "Los Angeles": "KXHIGHTLAX",
-    "Dallas": "KXHIGHTDAL", "Austin": "KXHIGHTAUS", "Houston": "KXHIGHTHOU",
-    "Atlanta": "KXHIGHTATL", "Miami": "KXHIGHTMIA", "New York": "KXHIGHTNY",
+    "Dallas": "KXHIGHTDAL", "Austin": "KXHIGHAUS", "Houston": "KXHIGHTHOU",
+    "Atlanta": "KXHIGHTATL", "Miami": "KXHIGHTMIA", "New York": "KXHIGHNY",
     "San Antonio": "KXHIGHTSAT", "New Orleans": "KXHIGHTMSY", "Philadelphia": "KXHIGHTPHL",
     "Boston": "KXHIGHTBOS", "Denver": "KXHIGHTDEN", "Oklahoma City": "KXHIGHTOKC",
     "Minneapolis": "KXHIGHTMSP", "Washington DC": "KXHIGHTDCA",
