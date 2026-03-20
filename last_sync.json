@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-20",
+  "synced": [
+    "Phoenix",
+    "Las Vegas",
+    "Los Angeles",
+    "Dallas",
+    "Austin",
+    "Houston",
+    "Atlanta",
+    "New York",
+    "San Antonio",
+    "New Orleans",
+    "Philadelphia",
+    "Boston",
+    "Denver",
+    "Oklahoma City",
+    "Minneapolis",
+    "Washington DC"
+  ],
+  "failed": [
+    "Miami"
+  ]
+}
