@@ -984,5 +984,6 @@ st.metric(‘Records’, len(history))
 with hc2:
 st.metric(‘Model MAE’, str(round(mae, 2))+’ F’)
 with hc3:
+
 st.metric(‘Within 1 degree’, str(round(w1*100, 0))+’%’)
 st.dataframe(df_h, use_container_width=True, hide_index=True)
